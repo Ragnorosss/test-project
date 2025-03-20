@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import styles from './toast.module.css';
 import { motion } from 'framer-motion';
 interface ToastProps {
@@ -11,7 +11,7 @@ const Toast: React.FC<ToastProps> = ({ message, type, onClose }) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       onClose();
-    }, 3000); // Убираем toast через 3 секунды
+    }, 3000);
 
     return () => clearTimeout(timer);
   }, [message, onClose]);
