@@ -13,7 +13,7 @@ export default function Orders() {
     setLoading(true);
     setError(null);
     try {
-      await axios.get('http://localhost:3000/orders').then((data) => {
+      await axios.get('https://moc-server.vercel.app/orders').then((data) => {
         setOrders(data.data);
       });
     } catch (error) {

@@ -13,7 +13,7 @@ export default function Tabs({ trigger }: TabsProps) {
         display: 'flex',
         justifyContent: 'center',
         gap: '5px',
-        margin: '10px auto',
+        margin: '24px auto',
       }}
     >
       <div className={styles.tabs}>

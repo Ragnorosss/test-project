@@ -11,9 +11,11 @@ export default function Order() {
 
   const [orders, setOrders] = useState<TOrder>();
   const getOrder = async () => {
-    await axios.get(`http://localhost:3000/orders/${id}`).then((data) => {
-      setOrders(data.data);
-    });
+    await axios
+      .get(`https://moc-server.vercel.app/orders/${id}`)
+      .then((data) => {
+        setOrders(data.data);
+      });
   };
   useEffect(() => {
     getOrder();
