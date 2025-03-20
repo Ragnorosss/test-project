@@ -1,0 +1,32 @@
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 296px;
+  min-width: 262px;
+  background-color: #ffffff;
+  color: #000000;
+  min-height: 36px;
+  max-height: 44px;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+.link:nth-child(2) {
+
+  margin-bottom: 40px;
+}
+.link:last-child {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  height: 50vh;
+}

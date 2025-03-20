@@ -1,0 +1,28 @@
+.header {
+  background-color: #ffffff0a;
+  backdrop-filter: blur(88px);
+}
+.headerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0px;
+}
+.headerNavigation {
+  display: flex;
+  gap: 12px;
+}
+.logo {
+  width: 80px;
+  height: 36px;
+  border-radius: 24px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.currenLang{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius:32px;
+}

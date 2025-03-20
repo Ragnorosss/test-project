@@ -1,0 +1,61 @@
+.order {
+  width: 100%;
+  max-width: 296px;
+  margin: 0 auto;
+}
+.back {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.yourGoods {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin: 12px 0;
+  font-weight: 700;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 19px 0;
+}
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.title {
+  font-size: 17px;
+  font-weight: 700;
+}
+.discounted {
+  color: #ffffff;
+  opacity: 0.5;
+  text-decoration: line-through;
+  font-size: 12px;
+}
+.newPeople {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 9px;
+}
+.peopleStisctic {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+.ask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 100%;
+  max-width: 296px;
+  border-radius: 20px;
+  color: #000;
+  background-color: #fff;
+}

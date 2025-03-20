@@ -1,0 +1,33 @@
+.tabs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px;
+  border-radius: 20px;
+  background-color: #ffffff1f;
+}
+.tabsLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 0 auto;
+  padding: 0 19px;
+}
+.active {
+  height: 32px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 20px;
+}
+.close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.send{
+    
+}

@@ -1,0 +1,10 @@
+export { default as IconApple } from '../../assets/apple.svg?react';
+export { default as IconGoogle } from '../../assets/google.svg?react';
+export { default as IconFacebook } from '../../assets/facebook.svg?react';
+export { default as IconDiscord } from '../../assets/discord.svg?react';
+export { default as IconTelegram } from '../../assets/telegram.svg?react';
+export { default as IconUaFlag} from '../../assets/ua_flag.svg?react';
+export { default as IconEnFlag} from '../../assets/eng.svg?react';
+export { default as IconCurrency} from '../../assets/currency_value.svg?react';
+export { default as IconExit} from '../../assets/exit.svg?react';
+export { default as IconArrLeft} from '../../assets/back-to-home.svg?react';
