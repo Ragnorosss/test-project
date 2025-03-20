@@ -3,7 +3,6 @@ import Tabs from '../ui/Tabs';
 
 export default function AuthLayout() {
   const location = useLocation();
-  console.log(location);
 
   return (
     <>
@@ -12,5 +11,5 @@ export default function AuthLayout() {
         <Outlet />
       </div>
     </>
-);
+  );
 }

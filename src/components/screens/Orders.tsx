@@ -4,10 +4,11 @@ import { TOrder } from '../../type';
 import { Link } from 'react-router-dom';
 import OrderItem from '../ui/OrderItem';
 import { IconArrLeft } from '../icons/icons';
+import OrderSkeleton from '../ui/Skeleton';
 export default function Orders() {
   const [orders, setOrders] = useState<TOrder[]>([]);
   const [error, setError] = useState<string | null>(null);
-  const [loading, setLoading] = useState<boolean>(false);
+  const [loading, setLoading] = useState<boolean>(true);
   const getOrder = async () => {
     setLoading(true);
     setError(null);
@@ -41,7 +42,7 @@ export default function Orders() {
         flexDirection: 'column',
         gap: '12px',
         maxWidth: '300px',
-        margin: '0 auto',
+        margin: '14px auto',
       }}
     >
       <Link
@@ -73,7 +74,9 @@ export default function Orders() {
               </Link>
             </div>
           ))
-        : null}
+        : Array.from({ length: 3 }).map((_, index) => (
+            <OrderSkeleton key={index} isLoading={loading} />
+          ))}
     </div>
   );
 }
