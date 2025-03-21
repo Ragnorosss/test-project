@@ -30,3 +30,5 @@
 └── Plugins/                   # Плаґіни для проекту (наприклад, vite-plugin-svgr)
     └── vite-plugin-svgr     # Плаґін для роботи з SVG зображеннями
 ```
+#Docker 
+docker compose -f docker.compose.yml up або docker compose up
