@@ -1,8 +1,8 @@
 .dropDownMenu {
   position: absolute;
   top: 120%;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 49%;
+  transform: translateX(-45%);
   min-width: 65px;
   max-width: 300px;
   background-color: #2c4451;

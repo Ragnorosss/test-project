@@ -21,7 +21,10 @@ export default function OrderItem({
         </div>
         <div>
           <p className={styles.titleOrder}>Status</p>
-          <p className={styles.dataOrder}>{status}</p>
+          <div className={styles.dataOrder}>
+            <span className={styles.dataOrderStatus}></span>
+            <span>{status}</span>
+          </div>
         </div>
       </div>
       <div className={styles.orderWrapper}>

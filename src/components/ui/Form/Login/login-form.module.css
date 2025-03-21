@@ -26,6 +26,11 @@
   height: 44px;
   border-radius: 20px;
 }
+.forgotPass{
+  font-size: 12px;
+  color: rgba(255, 255, 255, .5);
+  text-decoration: underline;
+}
 .socialContainer{
     display: flex; 
     flex-direction: column;

@@ -32,9 +32,7 @@ export default function Orders() {
   useEffect(() => {
     getOrder();
   }, []);
-  if (error) {
-    <p>{error}</p>;
-  }
+
   return (
     <div
       style={{
@@ -58,6 +56,7 @@ export default function Orders() {
         <IconArrLeft />
         Orders
       </Link>
+      {error}
       {!loading
         ? orders.map((order) => (
             <div
@@ -74,8 +73,8 @@ export default function Orders() {
               </Link>
             </div>
           ))
-        : Array.from({ length: 3 }).map((_, index) => (
-            <OrderSkeleton key={index} isLoading={loading} />
+        : Array.from({ length: 5 }).map((_, index) => (
+            <OrderSkeleton key={index} />
           ))}
     </div>
   );

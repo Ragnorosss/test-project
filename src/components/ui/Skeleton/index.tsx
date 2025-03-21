@@ -1,8 +1,6 @@
 import styles from './order-skeleton.module.css';
 
-export default function OrderSkeleton({ isLoading }: { isLoading: boolean }) {
-  if (!isLoading) return null;
-
+export default function OrderSkeleton() {
   return (
     <div className={styles.order}>
       <div className={styles.orderWrapper}>

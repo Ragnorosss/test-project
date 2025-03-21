@@ -1,0 +1,45 @@
+.skeleton {
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  height: 20px;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 14px;
+  background: linear-gradient(90deg, #a0a0a0 25%, #c5c5c5 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite linear;
+
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+.skeletonText {
+  width: 60%;
+}
+
+.skeletonDiscount {
+  width: 40%;
+}
+
+.skeletonButton {
+  width: 100px;
+  height: 40px;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -300px 0;
+  }
+  100% {
+    background-position: 300px 0;
+  }
+}
+.skeletonWrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 12px 0;
+  font-weight: 700;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 19px 0;
+}

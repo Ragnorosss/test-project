@@ -14,10 +14,10 @@ function AnimateWrapper({ children }: PropsWithChildren) {
       {/* Мotion.div для анімації під час переходів між сторінками */}
       <motion.div
         key={location.pathname}  // Ключ для анімації, щоб кожна сторінка мала унікальний ключ
-        initial={{ opacity: 0, scale: 0.98, x: 10 }}  // Початковий стан анімації
+        initial={{ opacity: 0, }}  // Початковий стан анімації
         animate={{ opacity: 1, scale: 1, x: 0 }}  // Стан під час анімації
-        exit={{ opacity: 0, scale: 1.02, x: -10 }}  // Стан при виході зі сторінки
-        transition={{ duration: 0.3, ease: 'easeOut' }}  // Налаштування тривалості та типу анімації
+        exit={{ opacity: 0, scale: 1.02 }}  // Стан при виході зі сторінки
+        transition={{ duration: 0.5, ease: 'easeOut' }}  // Налаштування тривалості та типу анімації
       >
         {children}  {/* Виводимо дочірні компоненти */}
       </motion.div>

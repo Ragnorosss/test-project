@@ -9,10 +9,15 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 24px;
-
-  
 }
-.orderWrapper::before{
+.dataOrderStatus {
+  display: inline-block;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  background-color: #11b174;
+}
+.orderWrapper::before {
   content: '';
   position: absolute;
   background-color: white;
@@ -23,15 +28,20 @@
   left: 15px;
   max-width: 264px;
 }
-.orderWrapper:last-child{
-    margin-bottom: 0;
+.orderWrapper:last-child {
+  margin-bottom: 0;
 }
-.titleOrder{
-    font-size: 10px;
-    color: gray;
-    margin-bottom: 4px;
+.titleOrder {
+  font-size: 10px;
+  color: gray;
+
+  margin-bottom: 4px;
 }
-.dataOrder{
-    font-size: 12px;
-    color: #FFFFFF;
+.dataOrder {
+  font-size: 12px;
+  color: #ffffff;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 4px;
 }

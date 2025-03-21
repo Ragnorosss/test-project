@@ -113,7 +113,7 @@ export default function LoginForm() {
           </ul>
         </div>
         {/* Посилання для відновлення пароля */}
-        <Link to="/">Forgot password?</Link>
+        <Link to="/" className={styles.forgotPass}>Forgot password?</Link>
       </form>
     </>
   );

@@ -77,8 +77,8 @@ const DropDownMenu = ({ items, selectedItem, onSelect }: DropDownMenuProps) => {
           <motion.div
             ref={menuRef}
             className={styles.dropDownMenu}
-            initial={{ opacity: 0, scale: 0.9, y: -10, x: -40 }}
-            animate={{ opacity: 1, scale: 1, y: 0, x: -40 }}
+            initial={{ opacity: 0, scale: 0.9, y: -10, x: -35 }}
+            animate={{ opacity: 1, scale: 1, y: 0, x: -35 }}
             exit={{ opacity: 0, scale: 0.9, y: -10 }}
             transition={{ duration: 0.2, ease: 'easeOut' }}
           >
