@@ -25,10 +25,11 @@
 ├── eslint.config.js           # Конфігурація для ESLint
 ├── tsconfig.app.json          # Конфігурація TypeScript для додатка
 ├── tsconfig.json              # Основна конфігурація TypeScript
-├── vite.config.ts             # Конфігурація для Vite (сборник)
-│
-└── Plugins/                   # Плаґіни для проекту (наприклад, vite-plugin-svgr)
-    └── vite-plugin-svgr     # Плаґін для роботи з SVG зображеннями
+├── vite.config.ts             # Конфігурація для Vite
 ```
 #Docker 
 docker compose -f docker.compose.yml up або docker compose up
+
+#Плагіни
+
+    └── vite-plugin-svgr     # Плаґін для роботи з SVG зображеннями
