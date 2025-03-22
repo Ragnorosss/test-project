@@ -27,10 +27,10 @@
 ├── tsconfig.json              # Основна конфігурація TypeScript
 ├── vite.config.ts             # Конфігурація для Vite
 ```
-#Docker 
+# Docker 
 docker compose -f docker.compose.yml up або docker compose up
 
-#Плагіни
+# Плагіни
 
     └── vite-plugin-svgr     # Плаґін для роботи з SVG зображеннями
 
