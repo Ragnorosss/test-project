@@ -33,3 +33,13 @@ docker compose -f docker.compose.yml up або docker compose up
 #Плагіни
 
     └── vite-plugin-svgr     # Плаґін для роботи з SVG зображеннями
+
+# Скрипты для підняття сервера 
+```
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+  },
+```
